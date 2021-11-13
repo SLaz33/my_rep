@@ -75,3 +75,4 @@ while True:
     if move_num == 9:
         print('Ничья')
         break
+# вношу изменения
