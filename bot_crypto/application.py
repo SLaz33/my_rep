@@ -39,8 +39,8 @@ def converter(message: telebot.types.Message):
     except Exception as e:
         bot.reply_to(message, e)
     else:
-        answer = f'Цена {values[2]} {values[0]} в {values[1]} равна {num}{exchanger[values[1]]}'
-        bor.reply_to(message, answer)
+        answer = f'{values[2]} {exchanger[values[0]]} по текущему курсу равно {result} {exchanger[values[1]]}'
+        bot.reply_to(message, answer)
 
 
 bot.polling(none_stop=True, interval=0)
