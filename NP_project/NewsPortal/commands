@@ -1,0 +1,25 @@
+Anton_user = User.objects.create_user(username = 'Anton', password = 'qwerty')
+Petr_user = User.objects.create_user(username = 'Petr', password = 'qwerty')
+
+Anton = Author.objects.create(user = Anton_user)
+Petr = Author.objects.create(user = Petr_user)
+
+cat_humour = Category.objects.create(category_name = 'Юмор')
+cat_nature = Category.objects.create(category_name = 'Природа')
+cat_music = Category.objects.create(category_name = 'Музыка')
+cat_politics = Category.objects.create(category_name = 'Политика')
+
+art_1 = Post.objects.create(author = Anton, content_type = Post.article, title = 'Кто рано встаёт', text = "Кто рано встаёт, тому бог подаёт. Я: рано встаю. Бог: на тебе мигрень!")
+art_2 = Post.objects.create(author = Anton, content_type = Post.article, title = 'Бьёт рекорды', text = "Этот мужик очень быстро бегает")
+nws_1 = Post.objects.create(author = Petr, content_type = Post.news, title = 'Концерт отменён', text = 'Концерт группы "Лоботрясы" отменён - не продан ни один билет')
+
+PostCategory.objects.create(post = art_1, category = cat_humour)
+PostCategory.objects.create(post = art_2, category = cat_nature)
+PostCategory.objects.create(post = nws_1, category = cat_music)
+PostCategory.objects.create(post = nws_1, category = cat_humour)
+
+com_1 = Comment.objects.create(post = art_1, user = Petr.user, comment_text = 'Это про меня')
+com_2 = Comment.objects.create(post = art_2, user = Petr.user, comment_text = ' Я быстрее')
+com_3 = Comment.objects.create(post = nws_1, user = Anton.user, comment_text = 'Я хотел пойти')
+com_4 = Comment.objects.create(post = nws_1, user = Petr.user, comment_text = 'Я тоже')
+
