@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cca95fc6-f19a-447e-994e-eb1e1da85f95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../My_tests/test_3_6_7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.2.11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.6.10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.6.4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.6.5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.6.6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.6.8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.6.9.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.1.5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.1.7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.2.3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.2.6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.2.8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.3.4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.3.6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.4.8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../file.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../readme.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ПРОЧИТАЙ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +104,17 @@
       <updated>1645185432470</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
