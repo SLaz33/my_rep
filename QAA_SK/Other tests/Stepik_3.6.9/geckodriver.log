@@ -1,0 +1,23 @@
+1645188874227	geckodriver	INFO	Listening on 127.0.0.1:41495
+1645188875235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileywJOAV"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1645188875761	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileywJOAV/search.json.mozlz4", (void 0)))
+1645188876784	Marionette	INFO	Listening on port 44351
+1645188876849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645188876857	geckodriver	INFO	Listening on 127.0.0.1:56979
+1645188876862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilechUp0N"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1645188877386	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilechUp0N/search.json.mozlz4", (void 0)))
+1645188878442	Marionette	INFO	Listening on port 35537
+1645188878475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1645188885352	Marionette	INFO	Stopped listening on port 35537
+1645190740351	Marionette	INFO	Stopped listening on port 44351

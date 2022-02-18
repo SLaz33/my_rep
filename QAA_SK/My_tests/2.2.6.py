@@ -7,7 +7,6 @@ def calc(x):
 
 try:
     link = "https://suninjuly.github.io/execute_script.html"
-    browser = webdriver.Chrome()
     browser.get(link)
     x_element = browser.find_element_by_id("input_value")
     x = int(x_element.text)

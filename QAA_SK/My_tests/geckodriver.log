@@ -1,0 +1,26 @@
+1645190269840	geckodriver	INFO	Listening on 127.0.0.1:36447
+1645190269843	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilezhMTZl"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1645190270368	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezhMTZl/search.json.mozlz4", (void 0)))
+1645190271344	Marionette	INFO	Listening on port 40495
+1645190271358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645190271368	geckodriver	INFO	Listening on 127.0.0.1:55545
+1645190272373	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileVUvVjc"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1645190272880	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVUvVjc/search.json.mozlz4", (void 0)))
+1645190273872	Marionette	INFO	Listening on port 37883
+1645190273888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/, line 758: ReferenceError: oscar is not defined
+1645190285682	Marionette	INFO	Stopped listening on port 37883
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645190743450	Marionette	INFO	Stopped listening on port 40495
